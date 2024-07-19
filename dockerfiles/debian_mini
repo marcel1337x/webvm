@@ -8,7 +8,8 @@ RUN apt-get -y install apt-utils gcc \
 	file luajit make lua50 dialog curl \
 	less cowsay netcat-openbsd curl dmidecode dmsetup git \
 	ifupdown init lsb-base lshw nano openssl sensible-utils \
-	ssh vim wget iptables isc-dhcp-client isc-dhcp-common kmod less netcat-openbsd mc 
+	ssh vim wget iptables isc-dhcp-client isc-dhcp-common kmod less netcat-openbsd mc \
+	gnupg htop
 
 #RUN apt-get update && apt-get -y upgrade && \
 #	apt-get install -y apt-utils beef bsdgames bsdmainutils ca-certificates clang \
